@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp vercel.json dist/vercel.json 2>/dev/null || copy vercel.json dist\\vercel.json 2>nul || echo 'vercel.json copy skipped'",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
