@@ -1,8 +1,60 @@
 {
-  "rewrites": [
+  "routes": [
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "/shop",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/cart",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/profile",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/orders",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/checkout",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/product/:id",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/admin/:path*",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/about",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/login",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/signup",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/forgot-password",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/reset-password/:path*",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
